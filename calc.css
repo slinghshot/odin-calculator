@@ -1,0 +1,83 @@
+html{
+    background-color: rgb(70, 70, 67);
+}
+#parentContainer{
+    border: 2px solid red;
+    
+}
+.num:hover{
+    background-color:rgb(182, 182, 182);
+}
+.calculator{
+    background-color: rgb(253, 250, 250);
+    display:flex;
+    flex-direction: column;
+    border:4px solid rgb(47, 47, 53);
+    width:400px;
+    /* height:600px; */
+    margin:auto;
+    padding:10px;
+    border-radius: 4px 4px 10px 10px;
+}
+.screen{
+    min-height:120px;
+    /* border:2px solid red; */
+    /* text-align: right; */
+    font-size: 13pt;
+    letter-spacing: 2px;
+}
+.ioScreen{
+    height:35px;
+    /* border:1px solid red; */
+    border-radius: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-family: 'Quantico', sans-serif;
+}
+.buttons{
+    flex:1;
+    margin-bottom:10px;
+    /* border:5px solid green; */
+}
+.numberpad{
+    color:rgb(9, 9, 34);
+    user-select: none;
+    font-family: 'Quantico', sans-serif;
+    /* margin-bottom:20px; */
+}
+.numRow{
+    display:flex;
+    flex-direction: row;
+    min-height:80px;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+
+}
+.lastRow{
+    display:flex;
+}
+.num{
+    padding:27px; /* 27 to see outlines inbetween so you can drop shadows*/
+    margin: 4px 1px 1px 1px;
+    flex:1;
+    border: 2px solid rgb(75, 43, 43);    
+    border-radius: 22px;
+    font-size:13pt;
+}
+#input{
+    text-align: left;
+    border: 2px solid rgb(75, 43, 43);    
+    padding: 15px 15px 0px 5px;
+    margin-bottom:1px;
+    margin-top:2px;
+}
+#output{
+    text-align: right;
+    border: 2px solid rgb(75, 43, 43);    
+    /* padding: 10px 15px 5px 5px; */
+    padding: 15px 15px 0px 5px;
+}
+.topRow{
+    margin-top:-8px;
+}
